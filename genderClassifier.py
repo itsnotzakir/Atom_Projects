@@ -14,7 +14,7 @@ height=int(input("What is the height(in cms): \n"))
 weight=int(input("What is the weight(kgs): \n"))
 shoeSize=int(input("What is the shoe size(european): \n"))
 
-gender=[height,weight,shoeSize]
-prediction=clf.predict([gender])
+new=[height,weight,shoeSize]
+prediction=clf.predict([new])
 
 print(prediction)
